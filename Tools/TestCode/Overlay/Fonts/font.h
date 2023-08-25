@@ -2,8 +2,6 @@
 #define FONT_H
 #include <stdint.h>
 
-// Font controls
-#define FORCE_MONOSPACE (0)
 
 // Font type definitions
 typedef struct {
@@ -25,14 +23,20 @@ extern const uint8_t Lucida_Console8x13[];
 extern const uint8_t Lucida_Console12x19[];
 extern const uint8_t Lucida_Console20x31[];
 
+#define P_LUCIDA_CONSOLE8x13   ((const uint8_t *) 0x00008000)
+#define P_LUCIDA_CONSOLE12x19  ((const uint8_t *) 0x00008800)
+#define P_LUCIDA_CONSOLE20x31  ((const uint8_t *) 0x00009800)
+
 // Definitions and Conversions
 #define CHAR_WIDTH G_LCD_char_width 
 #define CHAR_HEIGHT G_LCD_char_height 
 
 #define ROW_TO_Y(r) ((r)*G_LCD_char_height)
-#define COL_TO_X(c) ((c)*G_LCD_char_width)
+#define COL_TO_X(c) ((c)*(G_LCD_char_width+CHAR_TRACKING))
 
-#define LCD_MAX_COLS (LCD_WIDTH/G_LCD_char_width)
+#define LCD_MAX_COLS (LCD_WIDTH/(G_LCD_char_width+CHAR_TRACKING))
 #define LCD_MAX_ROWS (LCD_HEIGHT/G_LCD_char_height)
+
+#define NEWLINE(p) {p->X = 0; p->Y += CHAR_HEIGHT;}
 
 #endif // #ifndef FONT_H
