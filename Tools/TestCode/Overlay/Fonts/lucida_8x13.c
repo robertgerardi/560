@@ -7,8 +7,8 @@
 
 //GLCD FontName : Lucida_Console8x13
 //GLCD FontSize : 8 x 13
-
-__attribute__((aligned(4))) const uint8_t Lucida_Console8x13[];
+// 0x00008000
+__attribute__((aligned(4))) __attribute__((section(".ARM.__at_0x00008000"))) const uint8_t Lucida_Console8x13[];
 const uint8_t Lucida_Console8x13[] = {
    0x00,
    0x00,
