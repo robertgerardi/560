@@ -1,0 +1,578 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Alex\Documents\Teaching\Book Writin'\ARM Cortex M0Plus\Content\Timers\Code\Clock\BasicUI.uvproj
+Project File Date:  04/13/2013
+
+<h2>Output:</h2>
+Build target 'KL25Z Flash'
+linking...
+Program Size: Code=2138 RO-data=290 RW-data=64 ZI-data=1024  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(64): warning:  #223-D: function "Init_PIT" declared implicitly
+src\main.c(73): warning:  #223-D: function "Start_PIT" declared implicitly
+src\main.c(59): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+.\inc\timers.h(6): warning:  #1295-D: Deprecated declaration PIT_IRQIsr - give arg types
+src\timers.c(7): error:  #20: identifier "SIM_CGC6" is undefined
+src\timers.c(7): error:  #20: identifier "SIM_SCGC6_PIT_MASK" is undefined
+src\timers.c(10): error:  #20: identifier "PIT" is undefined
+src\timers.c(10): error:  #20: identifier "PIT_MCR_MASK" is undefined
+src\timers.c(11): error:  #20: identifier "PIT_FRZ_MASK" is undefined
+src\timers.c(17): error:  #20: identifier "PIT_TCTRL_CHN_MASK" is undefined
+src\timers.c(20): error:  #20: identifier "PIT_TCTRL_TIE_MASK" is undefined
+src\timers.c(23): warning:  #223-D: function "NVIC_SetPriority" declared implicitly
+src\timers.c(23): error:  #20: identifier "PIT_IRQn" is undefined
+src\timers.c(24): warning:  #223-D: function "NVIC_ClearPendingIRQ" declared implicitly
+src\timers.c(25): warning:  #223-D: function "NVIC_EnableIRQ" declared implicitly
+src\timers.c(31): error:  #20: identifier "PIT" is undefined
+src\timers.c(31): error:  #20: identifier "PIT_TCTRL_TEN_MASK" is undefined
+src\timers.c(36): warning:  #223-D: function "NVIC_ClearPendingIRQ" declared implicitly
+src\timers.c(36): error:  #20: identifier "PIT_IRQn" is undefined
+src\timers.c(39): error:  #20: identifier "PIT" is undefined
+src\timers.c(39): error:  #20: identifier "PIT_TFLG_TIF_MASK" is undefined
+src\timers.c(41): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(47): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(49): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+.\inc\timers.h(6): warning:  #1295-D: Deprecated declaration PIT_IRQIsr - give arg types
+src\main.c(60): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+.\inc\timers.h(6): warning:  #1295-D: Deprecated declaration PIT_IRQIsr - give arg types
+src\timers.c(7): error:  #20: identifier "SIM_CGC6" is undefined
+src\timers.c(7): error:  #20: identifier "SIM_SCGC6_PIT_MASK" is undefined
+src\timers.c(10): error:  #20: identifier "PIT" is undefined
+src\timers.c(10): error:  #20: identifier "PIT_MCR_MASK" is undefined
+src\timers.c(11): error:  #20: identifier "PIT_FRZ_MASK" is undefined
+src\timers.c(17): error:  #20: identifier "PIT_TCTRL_CHN_MASK" is undefined
+src\timers.c(20): error:  #20: identifier "PIT_TCTRL_TIE_MASK" is undefined
+src\timers.c(23): warning:  #223-D: function "NVIC_SetPriority" declared implicitly
+src\timers.c(23): error:  #20: identifier "PIT_IRQn" is undefined
+src\timers.c(24): warning:  #223-D: function "NVIC_ClearPendingIRQ" declared implicitly
+src\timers.c(25): warning:  #223-D: function "NVIC_EnableIRQ" declared implicitly
+src\timers.c(31): error:  #20: identifier "PIT" is undefined
+src\timers.c(31): error:  #20: identifier "PIT_TCTRL_TEN_MASK" is undefined
+src\timers.c(36): warning:  #223-D: function "NVIC_ClearPendingIRQ" declared implicitly
+src\timers.c(36): error:  #20: identifier "PIT_IRQn" is undefined
+src\timers.c(39): error:  #20: identifier "PIT" is undefined
+src\timers.c(39): error:  #20: identifier "PIT_TFLG_TIF_MASK" is undefined
+src\timers.c(41): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(47): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(49): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+.\inc\timers.h(6): warning:  #1295-D: Deprecated declaration PIT_IRQIsr - give arg types
+src\timers.c(8): error:  #20: identifier "SIM_CGC6" is undefined
+src\timers.c(11): error:  #20: identifier "PIT_MCR_MASK" is undefined
+src\timers.c(12): error:  #20: identifier "PIT_FRZ_MASK" is undefined
+src\timers.c(15): error:  #136: struct "<unnamed>" has no field "LDVAL0"
+src\timers.c(18): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(21): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(60): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+src\timers.c(8): error:  #20: identifier "SIM_SCGC6" is undefined
+src\timers.c(11): error:  #20: identifier "PIT_MCR_MASK" is undefined
+src\timers.c(12): error:  #20: identifier "PIT_FRZ_MASK" is undefined
+src\timers.c(15): error:  #136: struct "<unnamed>" has no field "LDVAL0"
+src\timers.c(18): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(21): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(15): error:  #136: struct "<unnamed>" has no field "LDVAL0"
+src\timers.c(18): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(21): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(15): warning:  #223-D: function "PIT_LDVAL" declared implicitly
+src\timers.c(18): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(21): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(18): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(21): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(32): error:  #136: struct "<unnamed>" has no field "TCTRL0"
+src\timers.c(40): error:  #136: struct "<unnamed>" has no field "TFLG0"
+src\timers.c(42): error:  #20: identifier "PIT_TFLG0" is undefined
+src\timers.c(46): error:  #136: struct "<unnamed>" has no field "TFLG1"
+src\timers.c(48): error:  #20: identifier "PIT_TFLG1" is undefined
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2482 RO-data=290 RW-data=68 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Build target 'KL25Z Flash'
+linking...
+Program Size: Code=2482 RO-data=290 RW-data=68 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling timers.c...
+src\timers.c(50): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2482 RO-data=290 RW-data=68 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Build target 'KL25Z Flash'
+compiling timers.c...
+linking...
+Program Size: Code=2482 RO-data=290 RW-data=68 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'KL25Z Flash'
+assembling startup_MKL25Z4.s...
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(77): warning:  #223-D: function "sprint" declared implicitly
+src\main.c(77): error:  #20: identifier "buffer" is undefined
+src\main.c(78): error:  #65: expected a ";"
+src\main.c(60): warning:  #177-D: variable "n" was declared but never referenced
+compiling switches.c...
+compiling LEDs.c...
+compiling timers.c...
+src\timers.c(4): error:  #147: declaration is incompatible with "unsigned int PIT_interrupt_counter" (declared at line 8 of ".\inc\timers.h")
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(77): warning:  #223-D: function "sprint" declared implicitly
+src\main.c(77): error:  #20: identifier "buffer" is undefined
+src\main.c(78): error:  #65: expected a ";"
+src\main.c(60): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(77): warning:  #223-D: function "sprint" declared implicitly
+src\main.c(77): error:  #20: identifier "buffer" is undefined
+src\main.c(78): error:  #65: expected a ";"
+src\main.c(60): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(78): warning:  #223-D: function "sprint" declared implicitly
+src\main.c(78): error:  #20: identifier "buffer" is undefined
+src\main.c(79): error:  #65: expected a ";"
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(78): warning:  #223-D: function "sprintf" declared implicitly
+src\main.c(78): error:  #20: identifier "buffer" is undefined
+src\main.c(79): error:  #65: expected a ";"
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(78): error:  #20: identifier "buffer" is undefined
+src\main.c(79): error:  #65: expected a ";"
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(78): error:  #20: identifier "buffer" is undefined
+src\main.c(79): error:  #65: expected a ";"
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(80): error:  #65: expected a ";"
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+linking...
+Program Size: Code=3418 RO-data=290 RW-data=68 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(79): error:  #20: identifier "LCD_update_requested" is undefined
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+Target not created
+Build target 'KL25Z Flash'
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+linking...
+Program Size: Code=6210 RO-data=290 RW-data=72 ZI-data=1024  
+"BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(61): warning:  #177-D: variable "n" was declared but never referenced
+compiling timers.c...
+linking...
+Program Size: Code=6238 RO-data=290 RW-data=76 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(83): warning:  #223-D: function "Stop_PIT" declared implicitly
+src\main.c(84): error:  #20: identifier "LCD_update_request" is undefined
+compiling timers.c...
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(84): error:  #20: identifier "LCD_update_request" is undefined
+compiling timers.c...
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=6294 RO-data=290 RW-data=76 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(69): warning:  #223-D: function "Init_PWM" declared implicitly
+src\main.c(77): warning:  #223-D: function "init_pwm" declared implicitly
+src\main.c(78): warning:  #223-D: function "i2c_init" declared implicitly
+src\main.c(79): warning:  #223-D: function "init_mma" declared implicitly
+src\main.c(83): warning:  #223-D: function "read_full_xyz" declared implicitly
+compiling timers.c...
+src\timers.c(96): warning:  #1-D: last line of file ends without a newline
+compiling Accel.c...
+src\Accel.c(36): warning:  #223-D: function "init_leds_pwm" declared implicitly
+src\Accel.c(47): warning:  #223-D: function "change_red" declared implicitly
+src\Accel.c(48): warning:  #223-D: function "change_green" declared implicitly
+src\Accel.c(49): warning:  #223-D: function "change_blue" declared implicitly
+compiling i2c.c...
+compiling mma8451.c...
+src\mma8451.c(42): error:  #20: identifier "RED_INT" is undefined
+src\mma8451.c(73): error:  #20: identifier "acc_X" is undefined
+src\mma8451.c(74): error:  #20: identifier "acc_Y" is undefined
+src\mma8451.c(75): error:  #20: identifier "acc_Z" is undefined
+src\mma8451.c(81): error:  #20: identifier "RED_INT" is undefined
+src\mma8451.c(83): error:  #20: identifier "BLUE_INT" is undefined
+src\mma8451.c(85): error:  #20: identifier "GREEN_INT" is undefined
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+compiling timers.c...
+src\timers.c(96): warning:  #1-D: last line of file ends without a newline
+compiling mma8451.c...
+src\mma8451.c(42): error:  #20: identifier "RED_INT" is undefined
+src\mma8451.c(73): error:  #20: identifier "acc_X" is undefined
+src\mma8451.c(74): error:  #20: identifier "acc_Y" is undefined
+src\mma8451.c(75): error:  #20: identifier "acc_Z" is undefined
+src\mma8451.c(81): error:  #20: identifier "RED_INT" is undefined
+src\mma8451.c(83): error:  #20: identifier "BLUE_INT" is undefined
+src\mma8451.c(85): error:  #20: identifier "GREEN_INT" is undefined
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+compiling timers.c...
+compiling mma8451.c...
+src\mma8451.c(80): error:  #20: identifier "RED_INT" is undefined
+src\mma8451.c(82): error:  #20: identifier "BLUE_INT" is undefined
+src\mma8451.c(84): error:  #20: identifier "GREEN_INT" is undefined
+Target not created
+Build target 'KL25Z Flash'
+compiling mma8451.c...
+linking...
+BasicUI.axf: Error: L6218E: Undefined symbol change_blue (referred from accel.o).
+BasicUI.axf: Error: L6218E: Undefined symbol change_green (referred from accel.o).
+BasicUI.axf: Error: L6218E: Undefined symbol change_red (referred from accel.o).
+BasicUI.axf: Error: L6218E: Undefined symbol init_leds_pwm (referred from accel.o).
+Target not created
+Build target 'KL25Z Flash'
+compiling mma8451.c...
+linking...
+BasicUI.axf: Error: L6218E: Undefined symbol Delay (referred from mma8451.o).
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(64): warning:  #550-D: variable "res" was set but never used
+compiling mma8451.c...
+compiling delay.c...
+src\delay.c(1): error:  #20: identifier "uint32_t" is undefined
+src\delay.c(2): error:  #20: identifier "uint32_t" is undefined
+src\delay.c(4): error:  #20: identifier "TICK" is undefined
+Target not created
+Build target 'KL25Z Flash'
+compiling delay.c...
+src\delay.c(6): error:  #20: identifier "TICK" is undefined
+Target not created
+Build target 'KL25Z Flash'
+compiling delay.c...
+src\delay.c(8): error:  #127: expected a statement
+Target not created
+Build target 'KL25Z Flash'
+compiling delay.c...
+linking...
+Program Size: Code=7332 RO-data=288 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(90): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4506 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+RDDI-DAP Error
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(93): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4506 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4538 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4538 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4538 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Clean started: Project: 'BasicUI'
+   deleting intermediate output files for target 'KL25Z Flash'
+Rebuild target 'KL25Z Flash'
+assembling startup_MKL25Z4.s...
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+compiling switches.c...
+compiling LEDs.c...
+compiling timers.c...
+compiling i2c.c...
+compiling mma8451.c...
+compiling delay.c...
+linking...
+Program Size: Code=4538 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #177-D: variable "res" was declared but never referenced
+linking...
+Program Size: Code=3662 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #177-D: variable "res" was declared but never referenced
+linking...
+Program Size: Code=4274 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #177-D: variable "res" was declared but never referenced
+linking...
+Program Size: Code=4270 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling mma8451.c...
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+compiling switches.c...
+compiling LEDs.c...
+compiling timers.c...
+compiling i2c.c...
+compiling mma8451.c...
+compiling delay.c...
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+"BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Clean started: Project: 'BasicUI'
+   deleting intermediate output files for target 'KL25Z Flash'
+Build target 'KL25Z Flash'
+assembling startup_MKL25Z4.s...
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+compiling switches.c...
+compiling LEDs.c...
+compiling timers.c...
+compiling i2c.c...
+compiling mma8451.c...
+compiling delay.c...
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+".\obj\BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\obj\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+".\obj\BasicUI.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'BasicUI'
+   deleting intermediate output files for target 'KL25Z Flash'
+Build target 'KL25Z Flash'
+assembling startup_MKL25Z4.s...
+compiling system_MKL25Z4.c...
+compiling LCD_4bit.c...
+compiling main.c...
+src\main.c(96): warning:  #111-D: statement is unreachable
+src\main.c(65): warning:  #550-D: variable "res" was set but never used
+compiling switches.c...
+compiling LEDs.c...
+compiling timers.c...
+compiling i2c.c...
+compiling mma8451.c...
+compiling delay.c...
+linking...
+Program Size: Code=4534 RO-data=290 RW-data=84 ZI-data=1028  
+".\obj\BasicUI.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writin'\\ARM Cortex M0Plus\\Content\\Timers\\Code\\Clock\\obj\\BasicUI.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

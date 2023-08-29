@@ -1,0 +1,55 @@
+/*----------------------------------------------------------------------------
+ *----------------------------------------------------------------------------*/
+#include <MKL25Z4.H>
+// #include <stdio.h>
+#include "gpio_defs.h"
+#include "LCD_4bit.h"
+#include "LEDs.h"
+#include "switches.h"
+
+extern volatile unsigned switch_pressed;
+
+void test_switches_and_LCD_with_interrupts(void) {
+	
+	while (1) {
+		if (switch_pressed) {
+			set_cursor(9,1);
+			if (switch_pressed & MASK(SW_UP_POS)) {
+				lcd_print("  Up  ");
+			} else if (switch_pressed & MASK(SW_DN_POS)) {
+				lcd_print("  Down");
+			} else if (switch_pressed & MASK(SW_LT_POS)) {
+				lcd_print("  Left");
+			} else if (switch_pressed & MASK(SW_RT_POS)) {
+				lcd_print(" Right");
+			} else if (switch_pressed & MASK(SW_CR_POS)) {
+				lcd_print("Center");
+			} else {
+				lcd_print("      ");
+		}
+	}
+	/* can do other things here */
+}
+
+
+
+
+ 
+
+/*----------------------------------------------------------------------------
+  MAIN function
+ *----------------------------------------------------------------------------*/
+int main (void) {
+	
+	init_5way_switch();
+	init_RGB_LEDs();
+//	test_switches();
+	__enable_irq();
+	
+	lcd_init();
+	lcd_clear();
+	set_cursor(0,0);
+	lcd_print("     Hello, World!");
+	test_switches_and_LCD_with_interrupts();
+}
+

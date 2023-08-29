@@ -1,0 +1,218 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Alex\Documents\Teaching\Book Writing\ARM Cortex M0Plus\Content\IntroCourse\Modules\Robustness\Code\WDT Demo\BasicUI.uvproj
+Project File Date:  11/03/2013
+
+<h2>Output:</h2>
+Build target 'KL25Z Flash'
+compiling main.c...
+inc\config.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5480 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 1 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5480 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5480 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+src\main.c(45): error:  #20: identifier "MAX_ANGLE" is undefined
+src\main.c(45): error:  #18: expected a ")"
+src\main.c(50): warning:  #12-D: parsing restarts here after previous syntax error
+src\main.c(50): error:  #127: expected a statement
+compiling COP_WDT.c...
+".\obj\BasicUI.axf" - 3 Errors, 1 Warning(s).
+Target not created
+Build target 'KL25Z Flash'
+compiling main.c...
+compiling COP_WDT.c...
+linking...
+Program Size: Code=5552 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Build target 'KL25Z Flash'
+compiling COP_WDT.c...
+src\COP_WDT.c(4): error:  #20: identifier "COPC" is undefined
+src\COP_WDT.c(5): warning:  #1-D: last line of file ends without a newline
+".\obj\BasicUI.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'KL25Z Flash'
+compiling COP_WDT.c...
+src\COP_WDT.c(5): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5552 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 1 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+inc\COP_WDT.h(7): warning:  #1-D: last line of file ends without a newline
+compiling COP_WDT.c...
+src\COP_WDT.c(10): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5576 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 2 Warning(s).
+Build target 'KL25Z Flash'
+compiling main.c...
+compiling COP_WDT.c...
+linking...
+Program Size: Code=5576 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+compiling COP_WDT.c...
+linking...
+Program Size: Code=5592 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling system_MKL25Z4.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+RDDI-DAP Error
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Build target 'KL25Z Flash'
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5592 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5592 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5592 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5584 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5592 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'KL25Z Flash'
+compiling main.c...
+linking...
+Program Size: Code=5536 RO-data=384 RW-data=24 ZI-data=1024  
+".\obj\BasicUI.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\Alex\\Documents\\Teaching\\Book Writing\\ARM Cortex M0Plus\\Content\\IntroCourse\\Modules\\Robustness\\Code\\WDT Demo\\obj\\BasicUI.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

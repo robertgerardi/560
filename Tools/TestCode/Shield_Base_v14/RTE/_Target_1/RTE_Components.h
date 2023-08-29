@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Project_2_Base' 
+ * Project: 'Test_Basic' 
  * Target:  'Target 1' 
  */
 
