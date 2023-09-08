@@ -12,15 +12,15 @@
  * Copyright (c) 2015 Keil - An ARM Company. All rights reserved.
  *----------------------------------------------------------------------------*/
 
+// agdean@ncsu.edu: Modified 9/8/2023 to support Arm Compiler 6, CMSIS-RTOS2 with RTX5
+
 #include "MKL25Z4.h"                    // Device header
 #include "cmsis_os2.h"                   // ARM::CMSIS:RTOS:Keil RTX
 #include "Board_LED.h"                  // ::Board Support:LED
 
-
 /*----------------------------------------------------------------------------
  *      Thread 1 'Thread_LED': Sample thread
  *---------------------------------------------------------------------------*/
-
 
 void Thread_LED (void *argument) {
   uint32_t led_max    = LED_GetCount();
